@@ -1,0 +1,38 @@
+.account {
+    padding: 4rem 8rem 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3rem;
+    /* background: linear-gradient(to bottom right, #bbe1fa5b, #bbe1fab4); */
+    background-color: rgb(227, 235, 250);
+}
+
+.account .sideMenu {
+    height: fit-content;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    row-gap: 2.5rem;
+    background-color: white;
+}
+
+.account .sideMenu .item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.account .sideMenu a {
+    text-decoration: none;
+    color: rgb(123, 122, 140);
+}
+
+.account .content {
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    padding: 2.5rem 3rem 2.5rem 3rem;
+}

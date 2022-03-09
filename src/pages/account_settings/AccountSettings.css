@@ -1,0 +1,31 @@
+.accountSettings {
+    color: rgb(94, 93, 105);
+}
+
+.accountSettings .title {
+    font-size: 2rem;
+}
+
+.accountSettings .mainField {
+}
+
+.accountSettings .mainField .row {
+    justify-content: space-between;
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.accountSettings .MuiTextField-root {
+    width: 40%;
+}
+
+.accountSettings .MuiButton-root {
+    transform: scale(1.2);
+    width: 130px;
+}
+
+.accountSettings #saveButton {
+    position: relative;
+    top: 20px;
+    left: 40%;
+}

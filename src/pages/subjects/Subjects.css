@@ -1,0 +1,23 @@
+.subjects {
+    color: rgb(94, 93, 105);
+}
+
+.subjects .title {
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+
+.subjects .mainDiv .subjectsItem {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.subjects .mainDiv .buttonRow {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 40px;
+}

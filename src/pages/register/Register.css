@@ -1,0 +1,62 @@
+.registerBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, white, #3282B8);
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    box-shadow: 0px 5px 20px;
+}
+
+.register .leftside {
+    background: linear-gradient(to right, #000046ba, #1cb5e0ba), url('../../assets/teacher2.jpg');
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register .leftside h1, .register .leftside p {
+    position: relative;
+    color: white;
+    margin-left: 5%;
+    zoom: 120%;
+    top: 20%;
+}
+
+.register .rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    gap: 1rem;
+}
+
+.register .rightside h1 {
+    color: #0F4C75;
+    zoom: 120%;
+}
+
+.register .rightside .username, .email, .register .password, .confirm, .tutor {
+    width: 60%;
+}
+
+.register .rightside .getStarted {
+    position: relative;
+    top: 7%;
+    transform: scale(1.2);
+}

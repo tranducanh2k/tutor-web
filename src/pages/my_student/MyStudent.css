@@ -1,0 +1,9 @@
+.myStudent {
+    color: rgb(94, 93, 105);
+}
+
+.myStudent .title {
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+

@@ -1,0 +1,62 @@
+.profile {
+    color: rgb(94, 93, 105);
+}
+
+.profile .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.profile .mainDiv {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20%;
+}
+
+.profile .column1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.profile .column2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.profile .column2 .imgChooser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile .column2 .imgChooser #avatar {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    color: #3282B8;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    z-index: 1;
+}
+
+.profile .buttonRow {
+    display: flex;
+    margin-top: 50px;
+    column-gap: 25%;
+    float: right;
+}
+
+.profile .mainDiv .MuiTextField-root {
+    width: 18rem;
+}
+
+.profile #avatarLabel {
+    position: relative;
+    bottom: 10rem;
+    left: 1rem;
+    z-index: 0;
+}
+

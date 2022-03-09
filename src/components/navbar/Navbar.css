@@ -1,0 +1,74 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -110px;
+    z-index: 999;
+}
+
+.navbar .upper-navbar img {
+    position: absolute;
+    width: 110px;
+    padding-left: 70px;
+}
+
+.navbar .upper-navbar #login {
+    position: absolute;
+    top: 35px;
+    right: 160px;
+}
+
+.navbar .upper-navbar #register {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+
+.navbar .upper-navbar .accountBtn {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+}
+.navbar .upper-navbar .logout {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+
+.navbar .lower-navbar {
+    flex: 50%;
+    display: flex;
+    background-color: #0F4C75;
+    height: 70px;
+    margin-top: 110px;
+    padding-left: 70px;
+}
+
+.navbar .lower-navbar a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+/* 
+.navbar .lower-navbar a:hover {
+    color: gray;
+} */
+
+.navbar .lower-navbar a::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.2s;
+}
+
+.navbar .lower-navbar a:hover::after {
+    width: 100%;
+}

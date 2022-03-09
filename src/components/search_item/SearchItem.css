@@ -1,0 +1,67 @@
+.searchItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 575px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.searchItem:hover {
+    box-shadow: 0px 3px 9px #3282B8;
+    cursor: pointer;
+}
+
+.searchItem .image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.searchItem h1 {
+    margin-left: 15px;
+    color: #3282B8;
+}
+
+.searchItem .type {
+    color: #0F4C75;
+    font-size: 1.5rem;
+}
+
+.searchItem h3 {
+    color: rgba(0, 0, 0, 0.623);
+    margin-left:15px;
+}
+
+.searchItem p {
+    color: rgba(0, 0, 0, 0.384);
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.searchItem .bottom {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.searchItem .bottom .price {
+    position: absolute;
+    color: green;
+    padding-top: 9px;
+    right: 0;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+
+text {
+    color: black;
+    font-size: 10px;
+}
+

@@ -1,0 +1,36 @@
+.enquiryItem {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #0F4C75;
+    border-width: 1px;
+    margin-bottom: 40px;
+}
+
+.enquiryItem .leftSide {
+    width: 80%;
+    cursor: pointer;
+}
+
+.enquiryItem .rightSide {
+    width: 20%;
+}
+
+.enquiryItem .leftSide .timestamp {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.enquiryItem .leftSide .from, .enquiryItem .leftSide .to, .enquiryItem .classId {
+    font-size: 1.2rem;
+}
+
+.enquiryItem .leftSide span {
+    font-weight: bold;
+}
+
+.enquiryItem .leftSide .contentEnquiry {
+    margin-top: 25px;
+}

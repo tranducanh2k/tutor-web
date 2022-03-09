@@ -1,0 +1,39 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) ), url('../../assets/teacher.jpg');
+}
+
+.home .teacherHeader {
+    width: auto;
+}
+
+.home .teacherHeader h1 {
+    padding-left: 40px;
+    font-size: 3em;
+    color: white;
+}
+
+.home .teacherHeader button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background: linear-gradient(to right ,#0F4C75, #3282B8);
+    height: 70px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-left: 270px;
+}
+
+.home .teacherHeader button:hover {
+    filter: brightness(120%);
+}

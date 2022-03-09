@@ -1,0 +1,43 @@
+.contactItem {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #0F4C75;
+    border-width: 1px;
+}
+
+.contactItem .upperDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactItem .leftSide {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.contactItem .leftSide .cancelForm {
+    margin-top: 40px;
+}
+
+.contactItem .leftSide .cancelForm .MuiTextField-root {
+    margin-right: 20px;
+}
+
+.contactItem .rightSide {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contactItem span {
+    font-weight: bold;
+}
+
+.contactItem .schedule {
+    padding-top: 40px;
+}
